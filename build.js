@@ -7,7 +7,8 @@
 const fs = require('fs');
 const path = require('path');
 const ROOT = __dirname;
-const HTML = path.join(ROOT, 'index.html');
+const TPL = path.join(ROOT, 'index.template.html'); // shell with the /*__LESSONS__*/[] marker
+const HTML = path.join(ROOT, 'index.html');          // built output
 const DATA = path.join(ROOT, 'data');
 
 const ORDER = [
@@ -62,9 +63,9 @@ function main() {
     total += arr.length;
     console.log('  ' + label.padEnd(26) + arr.length + ' lessons');
   }
-  let html = fs.readFileSync(HTML, 'utf8');
+  let html = fs.readFileSync(TPL, 'utf8');
   const MARK = '/*__LESSONS__*/[]';
-  if (!html.includes(MARK)) { console.error('marker not found'); process.exit(1); }
+  if (!html.includes(MARK)) { console.error('marker not found in index.template.html'); process.exit(1); }
   let json = JSON.stringify(all).replace(/<\/script/gi, '<\\/script');
   html = html.replace(MARK, () => json);
   fs.writeFileSync(HTML, html);
