@@ -2,7 +2,7 @@
 
 A self-contained drone & FPV course — single HTML file, no server required. FPV cockpit / OSD-HUD theme, sidebar navigation, progress tracking, and a hands-on lab at the end of every lesson.
 
-**12 parts · 102 lessons · zero → builder, pilot & operator:**
+**13 parts · 111 lessons · zero → builder, pilot & operator:**
 
 - **00 · Foundations** — types, flight physics, terminology, choosing your path
 - **01 · Components** — frame, motors, ESCs, flight controller, props, LiPo, VTX, GPS
@@ -14,8 +14,9 @@ A self-contained drone & FPV course — single HTML file, no server required. FP
 - **07 · Autonomy & Code** — mission planning, MAVLink, DroneKit/MAVSDK, companion-computer CV
 - **08 · Long-Range & HD** — link budget, antennas, ELRS LR, DJI/Walksnail/HDZero
 - **09 · Laws & Safety** — registration, Part 107, TRUST, Remote ID, LAANC, LiPo safety
-- **10 · Uses & Money** — racing, aerial work, mapping, inspection, light shows, and making money
-- **11 · Maintenance** — crash diagnosis, repairs, LiPo care, upgrades
+- **10 · Part 107 Exam Prep** — TRUST vs Part 107, airspace classes, reading sectional charts, LAANC, weather, operating rules, test domains & quizzes
+- **11 · Uses & Money** — racing, aerial work, mapping, inspection, light shows, and making money
+- **12 · Maintenance** — crash diagnosis, repairs, LiPo care, upgrades
 
 Built for **legal, safe** flying — every build/flight lesson includes the safety step, and the regulations part teaches the real current landscape with a reminder to verify FAA/local rules.
 

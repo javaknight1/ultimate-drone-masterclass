@@ -21,8 +21,9 @@ const ORDER = [
   ['p7',  '07 · Autonomy & Code', 7],
   ['p8',  '08 · Long-Range & HD', 8],
   ['p9',  '09 · Laws & Safety', 9],
-  ['p10', '10 · Uses & Money', 10],
-  ['p11', '11 · Maintenance', 11],
+  ['p12', '10 · Part 107 Exam Prep', 10],
+  ['p10', '11 · Uses & Money', 11],
+  ['p11', '12 · Maintenance', 12],
 ];
 
 const cover = {
@@ -30,7 +31,7 @@ const cover = {
 <div class="cover">
 <span class="lesson-kicker">link established · zero → pilot &amp; builder</span>
 <h2 class="lesson-title">fly<br>everything.</h2>
-<p class="lede">The complete path from "I've never touched a drone" to building, flying, filming, automating, and earning with them. Twelve parts: foundations, every component, building from parts, firmware &amp; software, radio &amp; control, piloting, aerial cinematography, autonomy &amp; code, long-range &amp; HD, the law, the markets, and maintenance. Every lesson ends with a hands-on task you actually do.</p>
+<p class="lede">The complete path from "I've never touched a drone" to building, flying, filming, automating, and earning with them. Thirteen parts: foundations, every component, building from parts, firmware &amp; software, radio &amp; control, piloting, aerial cinematography, autonomy &amp; code, long-range &amp; HD, the law, the markets, and maintenance. Every lesson ends with a hands-on task you actually do.</p>
 <div class="grid2">
   <div class="card"><div class="ct">▸ Hands-on every step</div><p>Each lesson ends with a "Hands-On" — solder a joint, flash Betaflight, fly the sim, plan a mission, check airspace. You learn drones by doing, not just reading.</p></div>
   <div class="card"><div class="ct">🔧 Build it yourself</div><p>Know every part — motors, ESCs, flight controller, VTX, LiPo — then assemble and tune a real FPV quad from scratch.</p></div>
@@ -38,7 +39,7 @@ const cover = {
   <div class="card"><div class="ct">💸 Fly for fun or for money</div><p>Racing, freestyle, cinematography, mapping, inspection, light shows — plus how to actually make money with a drone.</p></div>
 </div>
 <h3>How this course is structured</h3>
-<p>Twelve parts that build on each other — start with Foundations, then follow the path from parts to building to flying to filming to automating to shipping a service. Mark lessons complete as you go; your progress bar lives in the sidebar.</p>
+<p>Thirteen parts that build on each other — start with Foundations, then follow the path from parts to building to flying to filming to automating to shipping a service. Mark lessons complete as you go; your progress bar lives in the sidebar.</p>
 <div class="box danger"><div class="bt">Safety first, always.</div> LiPo batteries can catch fire and spinning props cut — every build and flight lesson includes the safety step. Never skip it, and never fly outside the law.</div>
 </div>
 ` };
